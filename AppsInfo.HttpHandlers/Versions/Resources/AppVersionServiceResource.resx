@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Html" xml:space="preserve">
+    <value>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"&gt;
+&lt;head&gt;
+	&lt;title&gt;AppInfo :)&lt;/title&gt;
+	&lt;style type="text/css"&gt;
+		*
+		{
+			margin: 0px;
+			padding: 0px;
+			font-family: 'Segoe UI Light' , 'Segoe UI' , Segoe, Geneva, Tahoma, sans-serif;
+		}
+		.header
+		{
+			position:absolute;
+			z-index:1;
+			width: 100%;
+			padding: 10px;
+			font-size: 40px;
+			color: rgba(255,255,255,1);
+			background-color: rgba(0,0,0,0.7);
+			border-bottom-color: #5EA8DE;
+			border-bottom-style: solid;
+			border-bottom-width: 3px;
+		}
+		.app-info-name
+		{
+			font-size: 35px;
+			color: Gray;
+		}
+		.app-info-value
+		{
+			font-size: 40px;
+			color: #008AB8;
+		}
+	&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;div class="header"&gt;
+		Aplicação {App.Name}
+	&lt;/div&gt;
+	&lt;div id="impress"&gt;
+		&lt;div class="step" data-x="0" data-y="0"&gt;
+			&lt;p class="app-info-name"&gt;
+				Versão
+			&lt;/p&gt;
+			&lt;p class="app-info-value"&gt;
+				{App.Version.Number}&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;div class="step" data-x="0" data-y="-600" data-rotate-x="60"&gt;
+			&lt;p class="app-info-name"&gt;
+				Publicação
+			&lt;/p&gt;
+			&lt;p class="app-info-value"&gt;
+				{App.Version.Date}&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;!-- Template para geração do changelog --&gt;
+		&lt;!--
+		&lt;div class="step" data-x="0" data-y="-1200" data-rotate-x="120"&gt;
+			&lt;p class="app-info-name"&gt;
+				{App.Release}
+			&lt;/p&gt;
+			&lt;p class="app-info-value"&gt;
+				{App.Release.Description}
+			&lt;/p&gt;
+		&lt;/div&gt;
+		--&gt;
+	&lt;/div&gt;
+	&lt;script type="text/javascript"&gt;(function(document,window){'use strict';var pfx=(function(){var style=document.createElement('dummy').style,prefixes='Webkit Moz O ms Khtml'.split(' '),memory={};return function(prop){if(typeof memory[prop]==="undefined"){var ucProp=prop.charAt(0).toUpperCase()+prop.substr(1),props=(prop+' '+prefixes.join(ucProp+' ')+ucProp).split(' ');memory[prop]=null;for(var i in props){if(style[props[i]]!==undefined){memory[prop]=props[i];break}}}return memory[prop]}})();var arrayify=function(a){return[].slice.call(a)};var css=function(el,props){var key,pkey;for(key in props){if(props.hasOwnProperty(key)){pkey=pfx(key);if(pkey!==null){el.style[pkey]=props[key]}}}return el};var toNumber=function(numeric,fallback){return isNaN(numeric)?(fallback||0):Number(numeric)};var byId=function(id){return document.getElementById(id)};var $=function(selector,context){context=context||document;return context.querySelector(selector)};var $$=function(selector,context){context=context||document;return arrayify(context.querySelectorAll(selector))};var triggerEvent=function(el,eventName,detail){var event=document.createEvent("CustomEvent");event.initCustomEvent(eventName,true,true,detail);el.dispatchEvent(event)};var translate=function(t){return" translate3d("+t.x+"px,"+t.y+"px,"+t.z+"px) "};var rotate=function(r,revert){var rX=" rotateX("+r.x+"deg) ",rY=" rotateY("+r.y+"deg) ",rZ=" rotateZ("+r.z+"deg) ";return revert?rZ+rY+rX:rX+rY+rZ};var scale=function(s){return" scale("+s+") "};var perspective=function(p){return" perspective("+p+"px) "};var getElementFromHash=function(){return byId(window.location.hash.replace(/^#\/?/,""))};var computeWindowScale=function(config){var hScale=window.innerHeight/config.height,wScale=window.innerWidth/config.width,scale=hScale&gt;wScale?wScale:hScale;if(config.maxScale&amp;&amp;scale&gt;config.maxScale){scale=config.maxScale}if(config.minScale&amp;&amp;scale&lt;config.minScale){scale=config.minScale}return scale};var body=document.body;var ua=navigator.userAgent.toLowerCase();var impressSupported=(pfx("perspective")!==null)&amp;&amp;(body.classList)&amp;&amp;(body.dataset)&amp;&amp;(ua.search(/(iphone)|(ipod)|(android)/)===-1);if(!impressSupported){body.className+=" impress-not-supported "}else{body.classList.remove("impress-not-supported");body.classList.add("impress-supported")}var roots={};var defaults={width:1024,height:768,maxScale:1,minScale:0,perspective:1000,transitionDuration:1000};var empty=function(){return false};var impress=window.impress=function(rootId){if(!impressSupported){return{init:empty,goto:empty,prev:empty,next:empty}}rootId=rootId||"impress";if(roots["impress-root-"+rootId]){return roots["impress-root-"+rootId]}var stepsData={};var activeStep=null;var currentState=null;var steps=null;var config=null;var windowScale=null;var root=byId(rootId);var canvas=document.createElement("div");var initialized=false;var lastEntered=null;var onStepEnter=function(step){if(lastEntered!==step){triggerEvent(step,"impress:stepenter");lastEntered=step}};var onStepLeave=function(step){if(lastEntered===step){triggerEvent(step,"impress:stepleave");lastEntered=null}};var initStep=function(el,idx){var data=el.dataset,step={translate:{x:toNumber(data.x),y:toNumber(data.y),z:toNumber(data.z)},rotate:{x:toNumber(data.rotateX),y:toNumber(data.rotateY),z:toNumber(data.rotateZ||data.rotate)},scale:toNumber(data.scale,1),el:el};if(!el.id){el.id="step-"+(idx+1)}stepsData["impress-"+el.id]=step;css(el,{position:"absolute",transform:"translate(-50%,-50%)"+translate(step.translate)+rotate(step.rotate)+scale(step.scale),transformStyle:"preserve-3d"})};var init=function(){if(initialized){return}var meta=$("meta[name='viewport']")||document.createElement("meta");meta.content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no";if(meta.parentNode!==document.head){meta.name='viewport';document.head.appendChild(meta)}var rootData=root.dataset;config={width:toNumber(rootData.width,defaults.width),height:toNumber(rootData.height,defaults.height),maxScale:toNumber(rootData.maxScale,defaults.maxScale),minScale:toNumber(rootData.minScale,defaults.minScale),perspective:toNumber(rootData.perspective,defaults.perspective),transitionDuration:toNumber(rootData.transitionDuration,defaults.transitionDuration)};windowScale=computeWindowScale(config);arrayify(root.childNodes).forEach(function(el){canvas.appendChild(el)});root.appendChild(canvas);document.documentElement.style.height="100%";css(body,{height:"100%",overflow:"hidden"});var rootStyles={position:"absolute",transformOrigin:"top left",transition:"all 0s ease-in-out",transformStyle:"preserve-3d"};css(root,rootStyles);css(root,{top:"50%",left:"50%",transform:perspective(config.perspective/windowScale)+scale(windowScale)});css(canvas,rootStyles);body.classList.remove("impress-disabled");body.classList.add("impress-enabled");steps=$$(".step",root);steps.forEach(initStep);currentState={translate:{x:0,y:0,z:0},rotate:{x:0,y:0,z:0},scale:1};initialized=true;triggerEvent(root,"impress:init",{api:roots["impress-root-"+rootId]})};var getStep=function(step){if(typeof step==="number"){step=step&lt;0?steps[steps.length+step]:steps[step]}else if(typeof step==="string"){step=byId(step)}return(step&amp;&amp;step.id&amp;&amp;stepsData["impress-"+step.id])?step:null};var stepEnterTimeout=null;var goto=function(el,duration){if(!initialized||!(el=getStep(el))){return false}window.scrollTo(0,0);var step=stepsData["impress-"+el.id];if(activeStep){activeStep.classList.remove("active");body.classList.remove("impress-on-"+activeStep.id)}el.classList.add("active");body.classList.add("impress-on-"+el.id);var target={rotate:{x:-step.rotate.x,y:-step.rotate.y,z:-step.rotate.z},translate:{x:-step.translate.x,y:-step.translate.y,z:-step.translate.z},scale:1/step.scale};var zoomin=target.scale&gt;=currentState.scale;duration=toNumber(duration,config.transitionDuration);var delay=(duration/2);if(el===activeStep){windowScale=computeWindowScale(config)}var targetScale=target.scale*windowScale;if(activeStep&amp;&amp;activeStep!==el){onStepLeave(activeStep)}css(root,{transform:perspective(config.perspective/targetScale)+scale(targetScale),transitionDuration:duration+"ms",transitionDelay:(zoomin?delay:0)+"ms"});css(canvas,{transform:rotate(target.rotate,true)+translate(target.translate),transitionDuration:duration+"ms",transitionDelay:(zoomin?0:delay)+"ms"});if(currentState.scale===target.scale||(currentState.rotate.x===target.rotate.x&amp;&amp;currentState.rotate.y===target.rotate.y&amp;&amp;currentState.rotate.z===target.rotate.z&amp;&amp;currentState.translate.x===target.translate.x&amp;&amp;currentState.translate.y===target.translate.y&amp;&amp;currentState.translate.z===target.translate.z)){delay=0}currentState=target;activeStep=el;window.clearTimeout(stepEnterTimeout);stepEnterTimeout=window.setTimeout(function(){onStepEnter(activeStep)},duration+delay);return el};var prev=function(){var prev=steps.indexOf(activeStep)-1;prev=prev&gt;=0?steps[prev]:steps[steps.length-1];return goto(prev)};var next=function(){var next=steps.indexOf(activeStep)+1;next=next&lt;steps.length?steps[next]:steps[0];return goto(next)};root.addEventListener("impress:init",function(){steps.forEach(function(step){step.classList.add("future")});root.addEventListener("impress:stepenter",function(event){event.target.classList.remove("past");event.target.classList.remove("future");event.target.classList.add("present")},false);root.addEventListener("impress:stepleave",function(event){event.target.classList.remove("present");event.target.classList.add("past")},false)},false);root.addEventListener("impress:init",function(){var lastHash="";root.addEventListener("impress:stepenter",function(event){window.location.hash=lastHash="#/"+event.target.id},false);window.addEventListener("hashchange",function(){if(window.location.hash!==lastHash){goto(getElementFromHash())}},false);goto(getElementFromHash()||steps[0],0)},false);body.classList.add("impress-disabled");return(roots["impress-root-"+rootId]={init:init,goto:goto,next:next,prev:prev})};impress.supported=impressSupported})(document,window);(function(document,window){'use strict';var throttle=function(fn,delay){var timer=null;return function(){var context=this,args=arguments;clearTimeout(timer);timer=setTimeout(function(){fn.apply(context,args)},delay)}};document.addEventListener("impress:init",function(event){var api=event.detail.api;document.addEventListener("keydown",function(event){if(event.keyCode===9||(event.keyCode&gt;=32&amp;&amp;event.keyCode&lt;=34)||(event.keyCode&gt;=37&amp;&amp;event.keyCode&lt;=40)){event.preventDefault()}},false);document.addEventListener("keyup",function(event){if(event.keyCode===9||(event.keyCode&gt;=32&amp;&amp;event.keyCode&lt;=34)||(event.keyCode&gt;=37&amp;&amp;event.keyCode&lt;=40)){switch(event.keyCode){case 33:case 37:case 38:api.prev();break;case 9:case 32:case 34:case 39:case 40:api.next();break}event.preventDefault()}},false);document.addEventListener("click",function(event){var target=event.target;while((target.tagName!=="A")&amp;&amp;(target!==document.documentElement)){target=target.parentNode}if(target.tagName==="A"){var href=target.getAttribute("href");if(href&amp;&amp;href[0]==='#'){target=document.getElementById(href.slice(1))}}if(api.goto(target)){event.stopImmediatePropagation();event.preventDefault()}},false);document.addEventListener("click",function(event){var target=event.target;while(!(target.classList.contains("step")&amp;&amp;!target.classList.contains("active"))&amp;&amp;(target!==document.documentElement)){target=target.parentNode}if(api.goto(target)){event.preventDefault()}},false);document.addEventListener("touchstart",function(event){if(event.touches.length===1){var x=event.touches[0].clientX,width=window.innerWidth*0.3,result=null;if(x&lt;width){result=api.prev()}else if(x&gt;window.innerWidth-width){result=api.next()}if(result){event.preventDefault()}}},false);window.addEventListener("resize",throttle(function(){api.goto(document.querySelector(".active"),500)},250),false)},false)})(document,window);&lt;/script&gt;
+	&lt;script type="text/javascript"&gt;impress().init();&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
+</root>

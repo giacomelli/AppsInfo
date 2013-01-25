@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>AppsInfo</id>
+    <version>0.1</version>
+    <authors>Diego Giacomelli, Eduardo "Bursa" Pereira</authors>
+    <owners></owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Components to show informations about ASP .NET Web Apps (MVC and Web API).</description>
+     <frameworkAssemblies>
+    </frameworkAssemblies>
+    <dependencies>
+    </dependencies>    
+  </metadata>
+  <files>
+    	<file src="AppsInfo.HttpHandlers\bin\Release\AppsInfo.HttpHandlers.dll" target="lib\net35" />     	
+    	<file src="AppsInfo.HttpHandlers\bin\Release\AppsInfo.HttpHandlers.dll" target="lib\net40" /> 
+  </files>
+</package>
