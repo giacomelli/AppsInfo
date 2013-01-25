@@ -130,8 +130,6 @@ namespace AppsInfo.HttpHandlers
 			var query = from assembly in AppDomain.CurrentDomain.GetAssemblies()
 						where
 							!assembly.GlobalAssemblyCache
-						&& assembly.FullName.Contains(".Fleury.")
-						&& (assembly.FullName.Contains(".Service.") || assembly.FullName.Contains(".Presentation"))
 						select assembly;
 
 			var result = query.FirstOrDefault();

@@ -33,15 +33,15 @@ namespace AppsInfo.HttpHandlers
 		public void ProcessRequest(HttpContext context)
 		{
 			var response = context.Response;
-			var extension = Path.GetExtension(context.Request.CurrentExecutionFilePath).ToLowerInvariant();
+			var extension = Path.GetFileName(context.Request.CurrentExecutionFilePath).ToLowerInvariant();
 
 			switch (extension)
 			{
-				case ".json":
+				case "json":
 					response.Write(AppVersionService.GetVersionJson());
 					break;
 
-				case ".png":
+				case "png":
 					response.ContentType = "image/png";
 					response.BinaryWrite(AppVersionService.GetVersionImage());
 					break;

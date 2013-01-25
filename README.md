@@ -15,26 +15,29 @@ Manually
 * Adds the httpHandler to web.config:
 ```xml
 <httpHandlers>
-    <add verb="*" path="AppsInfo*" type="AppsInfo.HttpHandlers.AppsInfoHttpHandler, AppsInfo.HttpHandlers" />
+    <add verb="GET" path="/AppsInfo/*/*" type="AppsInfo.HttpHandlers.AppsInfoHttpHandler, AppsInfo.HttpHandlers" />
 </httpHandlers>
-```
-
-* AppsInfo will try to identify your web app assembly, but in some case this is impossible, so just help it adding this key on AppSettings:
-```xml
-<add key="AppsInfo:AssemblyName" value="your web app assembly name" />
 ```
 
 NuGet
 --------
-Soon...
+PM> Install-Package AppsInfo
+
+
+Configuration
+--------
+AppsInfo will try to identify your web app assembly, but in some case this is impossible, so just help it adding this key on AppSettings:
+```xml
+<add key="AppsInfo:AssemblyName" value="your web app assembly name" />
+```
 
 
 Using
 ========
 * Access the the address below in your web app:
-* Json: http://<your web app url>/AppsInfo.json
-* Png: http://<your web app url>/AppsInfo.png
-* Html: http://<your web app url>/AppsInfo
+* Json: http://&lt;your web app url&gt;/AppsInfo/Version/json
+* Png: http://&lt;&gt;your web app url&gt;/AppsInfo/Version/png
+* Html: http://&lt;your web app url&gt;/AppsInfo/Version/html
 
 
 Improvements
@@ -52,3 +55,4 @@ Licensed under the Apache License, Version 2.0 (the "License").
 Change Log
 ----------
 0.1 Only supports version information.
+0.5 Some routes update and first NugGet package.

@@ -22,24 +22,10 @@ namespace AppsInfo.HttpHandlers.UnitTests
 		}
 
 		[TestMethod]
-		public void ProcessRequest_JsonExtension_JsonResponse()
+		public void ProcessRequest_HtmlExtension_HtmlResponse()
 		{
 			var target = new AppsInfoHttpHandler();
-			var context = CreateHttpContext("json");
-			target.ProcessRequest(context);
-
-			var content = context.Response.Output.ToString();
-			StringAssert.StartsWith(content, "{");
-			StringAssert.EndsWith(content, "}");
-			StringAssert.Contains(content, "\"Date\":");
-			StringAssert.Contains(content, "\"Number\":");
-		}
-
-		[TestMethod]
-		public void ProcessRequest_NoExtension_HtmlResponse()
-		{
-			var target = new AppsInfoHttpHandler();
-			var context = CreateHttpContext("");
+			var context = CreateHttpContext("HTML");
 			target.ProcessRequest(context);
 
 			var content = context.Response.Output.ToString();
@@ -49,9 +35,9 @@ namespace AppsInfo.HttpHandlers.UnitTests
 			StringAssert.Contains(content, "Publicação");
 		}
 
-		private HttpContext CreateHttpContext(string extension)
+		private HttpContext CreateHttpContext(string output)
 		{			
-			var httpRequest = new HttpRequest("", "http://localhost/AppsInfo." + extension, "");
+			var httpRequest = new HttpRequest("", "http://localhost/AppsInfo/Version/" + output, "");
 			var stringWriter = new StringWriter();
 			var httpResponce = new HttpResponse(stringWriter);
 			

@@ -1,0 +1,7 @@
+<configuration>
+	<system.web>
+		<httpHandlers>
+		    <add verb="GET" path="/AppsInfo/*/*" type="AppsInfo.HttpHandlers.AppsInfoHttpHandler, AppsInfo.HttpHandlers" />
+		</httpHandlers>
+	</system.web>
+</configuration>
