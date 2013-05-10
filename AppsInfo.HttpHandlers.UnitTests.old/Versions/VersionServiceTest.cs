@@ -1,31 +1,31 @@
-﻿using NUnit.Framework;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace AppsInfo.HttpHandlers.UnitTests.Versions
 {
-	[TestFixture]
+	[TestClass]
 	public class VersionServiceTest
 	{
-		[Test]
+		[TestMethod]
 		public void GetVersionJson_AnyAssembly_HasDataAndNumberProperties()
 		{
 			var content = AppVersionService.GetVersionJson();
-			StringAssert.StartsWith("{", content);
-			StringAssert.EndsWith("}", content);
-			StringAssert.Contains("\"Date\":", content);
-			StringAssert.Contains("\"Number\":", content);
+			StringAssert.StartsWith(content, "{");
+			StringAssert.EndsWith(content, "}");
+			StringAssert.Contains(content, "\"Date\":");
+			StringAssert.Contains(content, "\"Number\":");
 		}
 
-		[Test]
+		[TestMethod]
 		public void GetVersionHtml_AnyAssembly_HasDataAndNumberProperties()
 		{
 			var content = AppVersionService.GetVersionHtml();
-			StringAssert.StartsWith("<!DOCTYPE html>", content);
-			StringAssert.EndsWith("</html>", content);
-			StringAssert.Contains("Versão", content);
-			StringAssert.Contains("Publicação", content);
+			StringAssert.StartsWith(content, "<!DOCTYPE html>");
+			StringAssert.EndsWith(content, "</html>");
+			StringAssert.Contains(content, "Versão");
+			StringAssert.Contains(content, "Publicação");
 		}
 
-		[Test]
+		[TestMethod]
 		public void GetVersionImage_AnyAssembly_ImageBytes()
 		{
 			var content = AppVersionService.GetVersionImage();

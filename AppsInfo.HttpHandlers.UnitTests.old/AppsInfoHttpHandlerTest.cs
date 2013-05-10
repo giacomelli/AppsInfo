@@ -1,27 +1,27 @@
 ﻿using System.IO;
 using System.Web;
-using NUnit.Framework;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace AppsInfo.HttpHandlers.UnitTests
 {
-	[TestFixture]
+	[TestClass]
 	public class AppsInfoHttpHandlerTest
 	{
-		[Test]
+		[TestMethod]
 		public void IsReusable_Always_True()
 		{
 			var target = new AppsInfoHttpHandler();
 			Assert.IsTrue(target.IsReusable);
 		}
 
-		[Test]
+		[TestMethod]
 		public void GetHttpHandler_HttpContext_Current()
 		{
 			var target = new AppsInfoHttpHandler();
 			Assert.AreEqual(target, target.GetHttpHandler(null));
 		}
 
-		[Test]
+		[TestMethod]
 		public void ProcessRequest_HtmlExtension_HtmlResponse()
 		{
 			var target = new AppsInfoHttpHandler();
@@ -29,10 +29,10 @@ namespace AppsInfo.HttpHandlers.UnitTests
 			target.ProcessRequest(context);
 
 			var content = context.Response.Output.ToString();
-			StringAssert.StartsWith("<!DOCTYPE html>", content);
-			StringAssert.EndsWith("</html>", content);
-			StringAssert.Contains("Versão", content);
-			StringAssert.Contains("Publicação", content);
+			StringAssert.StartsWith(content, "<!DOCTYPE html>");
+			StringAssert.EndsWith(content, "</html>");
+			StringAssert.Contains(content, "Versão");
+			StringAssert.Contains(content, "Publicação");
 		}
 
 		private HttpContext CreateHttpContext(string output)

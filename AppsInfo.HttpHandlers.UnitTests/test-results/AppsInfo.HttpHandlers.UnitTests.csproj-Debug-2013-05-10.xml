@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <UnitTestResult>
+      <TestDate>2013-05-10T11:16:25</TestDate>
+      <Passed>3</Passed>
+      <Errors>0</Errors>
+      <Failures>3</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2013-05-10T11:18:37</TestDate>
+      <Passed>3</Passed>
+      <Errors>0</Errors>
+      <Failures>3</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2013-05-10T11:20:38</TestDate>
+      <Passed>4</Passed>
+      <Errors>0</Errors>
+      <Failures>2</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2013-05-10T11:22:36</TestDate>
+      <Passed>5</Passed>
+      <Errors>0</Errors>
+      <Failures>1</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2013-05-10T11:23:22</TestDate>
+      <Passed>6</Passed>
+      <Errors>0</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>Teste bem sucedido
+
+Tempo de execução: 0,48ms</Message>
+    </UnitTestResult>
+  </Results>
+  <Tests>
+    <TestRecord Name="AppsInfo">
+      <Results>
+        <UnitTestResult>
+          <TestDate>2013-05-10T11:16:25</TestDate>
+          <Passed>3</Passed>
+          <Errors>0</Errors>
+          <Failures>3</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2013-05-10T11:18:37</TestDate>
+          <Passed>3</Passed>
+          <Errors>0</Errors>
+          <Failures>3</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2013-05-10T11:20:38</TestDate>
+          <Passed>4</Passed>
+          <Errors>0</Errors>
+          <Failures>2</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2013-05-10T11:22:36</TestDate>
+          <Passed>5</Passed>
+          <Errors>0</Errors>
+          <Failures>1</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2013-05-10T11:23:22</TestDate>
+          <Passed>6</Passed>
+          <Errors>0</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>Teste bem sucedido
+
+Tempo de execução: 0,47ms</Message>
+        </UnitTestResult>
+      </Results>
+      <Tests>
+        <TestRecord Name="HttpHandlers">
+          <Results>
+            <UnitTestResult>
+              <TestDate>2013-05-10T11:16:25</TestDate>
+              <Passed>3</Passed>
+              <Errors>0</Errors>
+              <Failures>3</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2013-05-10T11:18:37</TestDate>
+              <Passed>3</Passed>
+              <Errors>0</Errors>
+              <Failures>3</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2013-05-10T11:20:38</TestDate>
+              <Passed>4</Passed>
+              <Errors>0</Errors>
+              <Failures>2</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2013-05-10T11:22:36</TestDate>
+              <Passed>5</Passed>
+              <Errors>0</Errors>
+              <Failures>1</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2013-05-10T11:23:22</TestDate>
+              <Passed>6</Passed>
+              <Errors>0</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>Teste bem sucedido
+
+Tempo de execução: 0,47ms</Message>
+            </UnitTestResult>
+          </Results>
+          <Tests>
+            <TestRecord Name="UnitTests">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-05-10T11:16:25</TestDate>
+                  <Passed>3</Passed>
+                  <Errors>0</Errors>
+                  <Failures>3</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>One or more child tests had errors</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-05-10T11:18:37</TestDate>
+                  <Passed>3</Passed>
+                  <Errors>0</Errors>
+                  <Failures>3</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>One or more child tests had errors</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-05-10T11:20:38</TestDate>
+                  <Passed>4</Passed>
+                  <Errors>0</Errors>
+                  <Failures>2</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>One or more child tests had errors</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-05-10T11:22:36</TestDate>
+                  <Passed>5</Passed>
+                  <Errors>0</Errors>
+                  <Failures>1</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>One or more child tests had errors</Message>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-05-10T11:23:22</TestDate>
+                  <Passed>6</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Teste bem sucedido
+
+Tempo de execução: 0,47ms</Message>
+                </UnitTestResult>
+              </Results>
+              <Tests>
+                <TestRecord Name="AppsInfoHttpHandlerTest">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-10T11:16:25</TestDate>
+                      <Passed>2</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>One or more child tests had errors</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-10T11:18:37</TestDate>
+                      <Passed>2</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>One or more child tests had errors</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-10T11:20:38</TestDate>
+                      <Passed>3</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Teste bem sucedido
+
+Tempo de execução: 0,26ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-10T11:22:36</TestDate>
+                      <Passed>3</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Teste bem sucedido
+
+Tempo de execução: 0,26ms</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-10T11:23:22</TestDate>
+                      <Passed>3</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Teste bem sucedido
+
+Tempo de execução: 0,26ms</Message>
+                    </UnitTestResult>
+                  </Results>
+                  <Tests>
+                    <TestRecord Name="GetHttpHandler_HttpContext_Current">
+                      <Results>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:16:25</TestDate>
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Teste bem sucedido
+
+Tempo de execução: 0,03ms</Message>
+                          <ConsoleOutput />
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:18:37</TestDate>
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Teste bem sucedido
+
+Tempo de execução: 0,02ms</Message>
+                          <ConsoleOutput />
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:20:38</TestDate>
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Teste bem sucedido
+
+Tempo de execução: 0,02ms</Message>
+                          <ConsoleOutput />
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:22:36</TestDate>
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Teste bem sucedido
+
+Tempo de execução: 0,02ms</Message>
+                          <ConsoleOutput />
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:23:22</TestDate>
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Teste bem sucedido
+
+Tempo de execução: 0,02ms</Message>
+                          <ConsoleOutput />
+                          <ConsoleError />
+                        </UnitTestResult>
+                      </Results>
+                      <Tests />
+                    </TestRecord>
+                    <TestRecord Name="IsReusable_Always_True">
+                      <Results>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:16:25</TestDate>
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Teste bem sucedido
+
+Tempo de execução: 0,00ms</Message>
+                          <ConsoleOutput />
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:18:37</TestDate>
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Teste bem sucedido
+
+Tempo de execução: 0,00ms</Message>
+                          <ConsoleOutput />
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:20:38</TestDate>
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Teste bem sucedido
+
+Tempo de execução: 0,00ms</Message>
+                          <ConsoleOutput />
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:22:36</TestDate>
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Teste bem sucedido
+
+Tempo de execução: 0,00ms</Message>
+                          <ConsoleOutput />
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:23:22</TestDate>
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Teste bem sucedido
+
+Tempo de execução: 0,00ms</Message>
+                          <ConsoleOutput />
+                          <ConsoleError />
+                        </UnitTestResult>
+                      </Results>
+                      <Tests />
+                    </TestRecord>
+                    <TestRecord Name="ProcessRequest_HtmlExtension_HtmlResponse">
+                      <Results>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:16:25</TestDate>
+                          <Passed>0</Passed>
+                          <Errors>0</Errors>
+                          <Failures>1</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>  Expected: String starting with "&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"..."
+  But was:  "&lt;!DOCTYPE html&gt;"
+</Message>
+                          <StackTrace>   em NUnit.Framework.Assert.That(Object actual, IResolveConstraint expression, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual)
+   em AppsInfo.HttpHandlers.UnitTests.AppsInfoHttpHandlerTest.ProcessRequest_HtmlExtension_HtmlResponse() na c:\Users\giacomelli.CWINET\Documents\GitHub\AppsInfo\AppsInfo.HttpHandlers.UnitTests\AppsInfoHttpHandlerTest.cs:linha 32</StackTrace>
+                          <ConsoleOutput />
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:18:37</TestDate>
+                          <Passed>0</Passed>
+                          <Errors>0</Errors>
+                          <Failures>1</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>  Expected: String starting with "&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"..."
+  But was:  "&lt;!DOCTYPE html&gt;"
+</Message>
+                          <StackTrace>   em NUnit.Framework.Assert.That(Object actual, IResolveConstraint expression, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual)
+   em AppsInfo.HttpHandlers.UnitTests.AppsInfoHttpHandlerTest.ProcessRequest_HtmlExtension_HtmlResponse() na c:\Users\giacomelli.CWINET\Documents\GitHub\AppsInfo\AppsInfo.HttpHandlers.UnitTests\AppsInfoHttpHandlerTest.cs:linha 32</StackTrace>
+                          <ConsoleOutput />
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:20:38</TestDate>
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Teste bem sucedido
+
+Tempo de execução: 0,19ms</Message>
+                          <ConsoleOutput />
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:22:36</TestDate>
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Teste bem sucedido
+
+Tempo de execução: 0,19ms</Message>
+                          <ConsoleOutput />
+                          <ConsoleError />
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:23:22</TestDate>
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Teste bem sucedido
+
+Tempo de execução: 0,19ms</Message>
+                          <ConsoleOutput />
+                          <ConsoleError />
+                        </UnitTestResult>
+                      </Results>
+                      <Tests />
+                    </TestRecord>
+                  </Tests>
+                </TestRecord>
+                <TestRecord Name="Versions">
+                  <Results>
+                    <UnitTestResult>
+                      <TestDate>2013-05-10T11:16:25</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>2</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>One or more child tests had errors</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-10T11:18:37</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>2</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>One or more child tests had errors</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-10T11:20:38</TestDate>
+                      <Passed>1</Passed>
+                      <Errors>0</Errors>
+                      <Failures>2</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>One or more child tests had errors</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-10T11:22:36</TestDate>
+                      <Passed>2</Passed>
+                      <Errors>0</Errors>
+                      <Failures>1</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>One or more child tests had errors</Message>
+                    </UnitTestResult>
+                    <UnitTestResult>
+                      <TestDate>2013-05-10T11:23:22</TestDate>
+                      <Passed>3</Passed>
+                      <Errors>0</Errors>
+                      <Failures>0</Failures>
+                      <Inconclusive>0</Inconclusive>
+                      <NotRunnable>0</NotRunnable>
+                      <Skipped>0</Skipped>
+                      <Ignored>0</Ignored>
+                      <Time />
+                      <Message>Teste bem sucedido
+
+Tempo de execução: 0,21ms</Message>
+                    </UnitTestResult>
+                  </Results>
+                  <Tests>
+                    <TestRecord Name="VersionServiceTest">
+                      <Results>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:16:25</TestDate>
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>2</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>One or more child tests had errors</Message>
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:18:37</TestDate>
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>2</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>One or more child tests had errors</Message>
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:20:38</TestDate>
+                          <Passed>1</Passed>
+                          <Errors>0</Errors>
+                          <Failures>2</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>One or more child tests had errors</Message>
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:22:36</TestDate>
+                          <Passed>2</Passed>
+                          <Errors>0</Errors>
+                          <Failures>1</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>One or more child tests had errors</Message>
+                        </UnitTestResult>
+                        <UnitTestResult>
+                          <TestDate>2013-05-10T11:23:22</TestDate>
+                          <Passed>3</Passed>
+                          <Errors>0</Errors>
+                          <Failures>0</Failures>
+                          <Inconclusive>0</Inconclusive>
+                          <NotRunnable>0</NotRunnable>
+                          <Skipped>0</Skipped>
+                          <Ignored>0</Ignored>
+                          <Time />
+                          <Message>Teste bem sucedido
+
+Tempo de execução: 0,21ms</Message>
+                        </UnitTestResult>
+                      </Results>
+                      <Tests>
+                        <TestRecord Name="GetVersionHtml_AnyAssembly_HasDataAndNumberProperties">
+                          <Results>
+                            <UnitTestResult>
+                              <TestDate>2013-05-10T11:16:25</TestDate>
+                              <Passed>0</Passed>
+                              <Errors>0</Errors>
+                              <Failures>1</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>  Expected: String starting with "&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"..."
+  But was:  "&lt;!DOCTYPE html&gt;"
+</Message>
+                              <StackTrace>   em NUnit.Framework.Assert.That(Object actual, IResolveConstraint expression, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual)
+   em AppsInfo.HttpHandlers.UnitTests.Versions.VersionServiceTest.GetVersionHtml_AnyAssembly_HasDataAndNumberProperties() na c:\Users\giacomelli.CWINET\Documents\GitHub\AppsInfo\AppsInfo.HttpHandlers.UnitTests\Versions\VersionServiceTest.cs:linha 22</StackTrace>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2013-05-10T11:16:31</TestDate>
+                              <Passed>0</Passed>
+                              <Errors>0</Errors>
+                              <Failures>1</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>  Expected: String starting with "&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"..."
+  But was:  "&lt;!DOCTYPE html&gt;"
+</Message>
+                              <StackTrace>   em NUnit.Framework.Assert.That(Object actual, IResolveConstraint expression, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual)
+   em AppsInfo.HttpHandlers.UnitTests.Versions.VersionServiceTest.GetVersionHtml_AnyAssembly_HasDataAndNumberProperties() na c:\Users\giacomelli.CWINET\Documents\GitHub\AppsInfo\AppsInfo.HttpHandlers.UnitTests\Versions\VersionServiceTest.cs:linha 22</StackTrace>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2013-05-10T11:16:41</TestDate>
+                              <Passed>0</Passed>
+                              <Errors>0</Errors>
+                              <Failures>1</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>  Expected: String starting with "&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"..."
+  But was:  "&lt;!DOCTYPE html&gt;"
+</Message>
+                              <StackTrace>   em NUnit.Framework.Assert.That(Object actual, IResolveConstraint expression, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual)
+   em AppsInfo.HttpHandlers.UnitTests.Versions.VersionServiceTest.GetVersionHtml_AnyAssembly_HasDataAndNumberProperties() na c:\Users\giacomelli.CWINET\Documents\GitHub\AppsInfo\AppsInfo.HttpHandlers.UnitTests\Versions\VersionServiceTest.cs:linha 22</StackTrace>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2013-05-10T11:18:37</TestDate>
+                              <Passed>0</Passed>
+                              <Errors>0</Errors>
+                              <Failures>1</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>  Expected: String starting with "&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"..."
+  But was:  "&lt;!DOCTYPE html&gt;"
+</Message>
+                              <StackTrace>   em NUnit.Framework.Assert.That(Object actual, IResolveConstraint expression, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual)
+   em AppsInfo.HttpHandlers.UnitTests.Versions.VersionServiceTest.GetVersionHtml_AnyAssembly_HasDataAndNumberProperties() na c:\Users\giacomelli.CWINET\Documents\GitHub\AppsInfo\AppsInfo.HttpHandlers.UnitTests\Versions\VersionServiceTest.cs:linha 22</StackTrace>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2013-05-10T11:20:38</TestDate>
+                              <Passed>0</Passed>
+                              <Errors>0</Errors>
+                              <Failures>1</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>  Expected: String starting with "&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"..."
+  But was:  "&lt;!DOCTYPE html&gt;"
+</Message>
+                              <StackTrace>   em NUnit.Framework.Assert.That(Object actual, IResolveConstraint expression, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual)
+   em AppsInfo.HttpHandlers.UnitTests.Versions.VersionServiceTest.GetVersionHtml_AnyAssembly_HasDataAndNumberProperties() na c:\Users\giacomelli.CWINET\Documents\GitHub\AppsInfo\AppsInfo.HttpHandlers.UnitTests\Versions\VersionServiceTest.cs:linha 22</StackTrace>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2013-05-10T11:22:36</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Teste bem sucedido
+
+Tempo de execução: 0,00ms</Message>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2013-05-10T11:23:22</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Teste bem sucedido
+
+Tempo de execução: 0,00ms</Message>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                          </Results>
+                          <Tests />
+                        </TestRecord>
+                        <TestRecord Name="GetVersionImage_AnyAssembly_ImageBytes">
+                          <Results>
+                            <UnitTestResult>
+                              <TestDate>2013-05-10T11:16:25</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Teste bem sucedido
+
+Tempo de execução: 0,08ms</Message>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2013-05-10T11:18:37</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Teste bem sucedido
+
+Tempo de execução: 0,05ms</Message>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2013-05-10T11:20:38</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Teste bem sucedido
+
+Tempo de execução: 0,04ms</Message>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2013-05-10T11:22:36</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Teste bem sucedido
+
+Tempo de execução: 0,04ms</Message>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2013-05-10T11:23:22</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Teste bem sucedido
+
+Tempo de execução: 0,04ms</Message>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                          </Results>
+                          <Tests />
+                        </TestRecord>
+                        <TestRecord Name="GetVersionJson_AnyAssembly_HasDataAndNumberProperties">
+                          <Results>
+                            <UnitTestResult>
+                              <TestDate>2013-05-10T11:16:25</TestDate>
+                              <Passed>0</Passed>
+                              <Errors>0</Errors>
+                              <Failures>1</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>  Expected: String starting with "{"Date":"\/Date(1363890654000-0300)..."
+  But was:  "{"
+</Message>
+                              <StackTrace>   em NUnit.Framework.Assert.That(Object actual, IResolveConstraint expression, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual)
+   em AppsInfo.HttpHandlers.UnitTests.Versions.VersionServiceTest.GetVersionJson_AnyAssembly_HasDataAndNumberProperties() na c:\Users\giacomelli.CWINET\Documents\GitHub\AppsInfo\AppsInfo.HttpHandlers.UnitTests\Versions\VersionServiceTest.cs:linha 12</StackTrace>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2013-05-10T11:18:37</TestDate>
+                              <Passed>0</Passed>
+                              <Errors>0</Errors>
+                              <Failures>1</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>  Expected: String starting with "{"Date":"\/Date(1363890654000-0300)..."
+  But was:  "{"
+</Message>
+                              <StackTrace>   em NUnit.Framework.Assert.That(Object actual, IResolveConstraint expression, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual)
+   em AppsInfo.HttpHandlers.UnitTests.Versions.VersionServiceTest.GetVersionJson_AnyAssembly_HasDataAndNumberProperties() na c:\Users\giacomelli.CWINET\Documents\GitHub\AppsInfo\AppsInfo.HttpHandlers.UnitTests\Versions\VersionServiceTest.cs:linha 12</StackTrace>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2013-05-10T11:20:38</TestDate>
+                              <Passed>0</Passed>
+                              <Errors>0</Errors>
+                              <Failures>1</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>  Expected: String starting with "{"Date":"\/Date(1363890654000-0300)..."
+  But was:  "{"
+</Message>
+                              <StackTrace>   em NUnit.Framework.Assert.That(Object actual, IResolveConstraint expression, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual)
+   em AppsInfo.HttpHandlers.UnitTests.Versions.VersionServiceTest.GetVersionJson_AnyAssembly_HasDataAndNumberProperties() na c:\Users\giacomelli.CWINET\Documents\GitHub\AppsInfo\AppsInfo.HttpHandlers.UnitTests\Versions\VersionServiceTest.cs:linha 12</StackTrace>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2013-05-10T11:22:36</TestDate>
+                              <Passed>0</Passed>
+                              <Errors>0</Errors>
+                              <Failures>1</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>  Expected: String starting with "{"Date":"\/Date(1363890654000-0300)..."
+  But was:  "{"
+</Message>
+                              <StackTrace>   em NUnit.Framework.Assert.That(Object actual, IResolveConstraint expression, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual, String message, Object[] args)
+   em NUnit.Framework.StringAssert.StartsWith(String expected, String actual)
+   em AppsInfo.HttpHandlers.UnitTests.Versions.VersionServiceTest.GetVersionJson_AnyAssembly_HasDataAndNumberProperties() na c:\Users\giacomelli.CWINET\Documents\GitHub\AppsInfo\AppsInfo.HttpHandlers.UnitTests\Versions\VersionServiceTest.cs:linha 12</StackTrace>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                            <UnitTestResult>
+                              <TestDate>2013-05-10T11:23:22</TestDate>
+                              <Passed>1</Passed>
+                              <Errors>0</Errors>
+                              <Failures>0</Failures>
+                              <Inconclusive>0</Inconclusive>
+                              <NotRunnable>0</NotRunnable>
+                              <Skipped>0</Skipped>
+                              <Ignored>0</Ignored>
+                              <Time />
+                              <Message>Teste bem sucedido
+
+Tempo de execução: 0,16ms</Message>
+                              <ConsoleOutput />
+                              <ConsoleError />
+                            </UnitTestResult>
+                          </Results>
+                          <Tests />
+                        </TestRecord>
+                      </Tests>
+                    </TestRecord>
+                  </Tests>
+                </TestRecord>
+              </Tests>
+            </TestRecord>
+          </Tests>
+        </TestRecord>
+      </Tests>
+    </TestRecord>
+  </Tests>
+</TestRecord>
