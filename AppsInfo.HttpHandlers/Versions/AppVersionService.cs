@@ -14,15 +14,15 @@ using AppsInfo.HttpHandlers.Versions.Resources;
 namespace AppsInfo.HttpHandlers
 {
 	/// <summary>
-	/// Serviço que disponibiliza as informações referentes a versão do aplicativo.
+    /// Service to expose infos about application version.
 	/// </summary>
 	public static class AppVersionService
 	{
 		#region Public methods
 		/// <summary>
-		/// Obtém as informações do aplicativo em formato Html.
+		/// Gets the app version in HTML format.
 		/// </summary>
-		/// <returns>O conteúdo html.</returns>
+		/// <returns>The HTML source.</returns>
 		public static string GetVersionHtml()
 		{
 			var version = GetVersion();
@@ -33,10 +33,10 @@ namespace AppsInfo.HttpHandlers
 				.Replace("{App.Version.Date}", version.Date.ToString("dd/MM/yyyy HH:mm:ss"));
 		}
 
-		/// <summary>
-		/// Obtém as informações do aplicativo em formato Json.
-		/// </summary>
-		/// <returns>O conteúdo Json.</returns>
+        /// <summary>
+        /// Gets the app version in JSON format.
+        /// </summary>
+        /// <returns>The JSON source.</returns>
 		public static string GetVersionJson()
 		{
 			var version = GetVersion();
@@ -50,10 +50,10 @@ namespace AppsInfo.HttpHandlers
 			}
 		}
 
-		/// <summary>
-		/// Obtém as informações do aplicativo em formato Png.
-		/// </summary>
-		/// <returns>O conteúdo Png.</returns>
+        /// <summary>
+        /// Gets the app version in PNG format.
+        /// </summary>
+        /// <returns>The PNG image bytes.</returns>
 		public static byte[] GetVersionImage()
 		{
 			var version = GetVersion();
@@ -79,52 +79,52 @@ namespace AppsInfo.HttpHandlers
 				}
 			}
 		}
+
+        /// <summary>
+        /// Gets the app version.
+        /// </summary>
+        /// <returns>The app version.</returns>
+        public static AppVersion GetVersion()
+        {
+            var version = new AppVersion();
+            Assembly assembly = null;
+            AssemblyName assemblyName = null;
+            var appSettingAssemblyName = ConfigurationManager.AppSettings["AppsInfo.AssemblyName"];
+
+            if (!String.IsNullOrEmpty(appSettingAssemblyName))
+            {
+                assembly = AppDomain.CurrentDomain.GetAssemblies().FirstOrDefault(a => a.FullName.StartsWith(appSettingAssemblyName));
+
+                if (assembly == null)
+                {
+                    assembly = Assembly.Load(appSettingAssemblyName);
+                }
+            }
+
+            if (assembly == null && HttpContext.Current != null)
+            {
+                assembly = HttpContext.Current.ApplicationInstance.GetType().BaseType.Assembly;
+            }
+
+            if (assembly == null)
+            {
+                assembly = GetFallbackAssembly();
+            }
+
+            assemblyName = assembly.GetName();
+
+            version.Name = assemblyName.Name;
+            version.Number = assemblyName.Version.ToString();
+            version.Date = File.GetLastWriteTime(assembly.Location);
+            return version;
+        }
 		#endregion
 
 		#region Private methods
 		/// <summary>
-		/// Obtém a versão do aplicativo.
+        /// Gets the fallback assembly.
 		/// </summary>
-		/// <returns>A versão.</returns>
-		private static AppVersion GetVersion()
-		{
-			var version = new AppVersion();
-			Assembly assembly = null;
-			AssemblyName assemblyName = null;
-			var appSettingAssemblyName = ConfigurationManager.AppSettings["AppsInfo.AssemblyName"];
-
-			if (!String.IsNullOrEmpty(appSettingAssemblyName))
-			{
-				assembly = AppDomain.CurrentDomain.GetAssemblies().FirstOrDefault(a => a.FullName.StartsWith(appSettingAssemblyName));
-
-				if (assembly == null)
-				{
-					assembly = Assembly.Load(appSettingAssemblyName);
-				}
-			}
-
-			if (assembly == null && HttpContext.Current != null)
-			{
-				assembly = HttpContext.Current.ApplicationInstance.GetType().BaseType.Assembly;
-			}			
-
-			if (assembly == null)
-			{
-				assembly = GetFallbackAssembly();			
-			}
-
-			assemblyName = assembly.GetName();
-
-			version.Name = assemblyName.Name;
-			version.Number = assemblyName.Version.ToString();
-			version.Date = File.GetLastWriteTime(assembly.Location);
-			return version;
-		}
-
-		/// <summary>
-		/// Obtém um assembly de reserva caso não seja possível obter o esperado.
-		/// </summary>
-		/// <returns>O assembly.</returns>
+		/// <returns>The assembly.</returns>
 		private static Assembly GetFallbackAssembly()
 		{
 			var query = from assembly in AppDomain.CurrentDomain.GetAssemblies()

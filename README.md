@@ -1,5 +1,6 @@
 AppsInfo
 ========
+[![Build Status](https://travis-ci.org/giacomelli/AppsInfo.png?branch=master)](https://travis-ci.org/giacomelli/AppsInfo)
 
 Components to show informations about ASP .NET Web Apps (MVC and Web API)
 
