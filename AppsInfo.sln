@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A1E45E5E-E9F2-40CB-ACB1-050FEB9F7C6E}"
 	ProjectSection(SolutionItems) = preProject
 		AppsInfo.vsmdi = AppsInfo.vsmdi
@@ -14,34 +14,39 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppsInfo.HttpHandlers.WebAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppsInfo.HttpHandlers.UnitTests", "AppsInfo.HttpHandlers.UnitTests\AppsInfo.HttpHandlers.UnitTests.csproj", "{8DD28CDE-67A7-48F0-997C-80F9C0C79EB5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CACC5420-5005-4D76-A47A-A79726862FB3}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = AppsInfo.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8DD28CDE-67A7-48F0-997C-80F9C0C79EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8DD28CDE-67A7-48F0-997C-80F9C0C79EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8DD28CDE-67A7-48F0-997C-80F9C0C79EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8DD28CDE-67A7-48F0-997C-80F9C0C79EB5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C2366162-3084-45C0-871B-553A85C9CEE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2366162-3084-45C0-871B-553A85C9CEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2366162-3084-45C0-871B-553A85C9CEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2366162-3084-45C0-871B-553A85C9CEE2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DB6A7386-80A0-402F-B717-5A4366FBF8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DB6A7386-80A0-402F-B717-5A4366FBF8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB6A7386-80A0-402F-B717-5A4366FBF8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB6A7386-80A0-402F-B717-5A4366FBF8CA}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = AppsInfo.HttpHandlers.WebAppTest\AppsInfo.HttpHandlers.WebAppTest.csproj
-	EndGlobalSection
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = AppsInfo.vsmdi
+		{C2366162-3084-45C0-871B-553A85C9CEE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2366162-3084-45C0-871B-553A85C9CEE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2366162-3084-45C0-871B-553A85C9CEE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2366162-3084-45C0-871B-553A85C9CEE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD28CDE-67A7-48F0-997C-80F9C0C79EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD28CDE-67A7-48F0-997C-80F9C0C79EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD28CDE-67A7-48F0-997C-80F9C0C79EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD28CDE-67A7-48F0-997C-80F9C0C79EB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = AppsInfo.HttpHandlers.WebAppTest\AppsInfo.HttpHandlers.WebAppTest.csproj
 	EndGlobalSection
 EndGlobal
