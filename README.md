@@ -1,7 +1,5 @@
 AppsInfo
 ========
-[![Build Status](https://travis-ci.org/giacomelli/AppsInfo.png?branch=master)](https://travis-ci.org/giacomelli/AppsInfo)
-
 Components to show informations about ASP .NET Web Apps (MVC and Web API)
 
 Currently supporting only information about app version. More to come...
@@ -51,9 +49,3 @@ License
 -------
 
 Licensed under the Apache License, Version 2.0 (the "License").
-
-
-Change Log
-----------
-0.1 Only supports version information.
-0.5 Some routes update and first NugGet package.
